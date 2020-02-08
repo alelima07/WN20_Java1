@@ -43,7 +43,7 @@ public class PrintGPA {
 			  System.out.println(name + "'s grade is " + sum / num);
 			}
 	
-	
+	//method used to test printGPA 
 	public static void printGPA(String student, int[] scores) {
 	       
 		String name = student;
