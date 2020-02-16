@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-///* SCC - ITC 115 Object Oriented Programming   
+///SCC - ITC 115 Object Oriented Programming   
 //Instructor: Ava Meredith
 //Student: Alessandra Lima
 //Date: Feb 16, 2020
