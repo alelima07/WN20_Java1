@@ -23,7 +23,7 @@ public class Chap6Ex001 {
     }
     
     public static void boyGirl(Scanner inp){
-        int boysTotal = 0;
+        int boysTotal = 0;//local variables to keep track of the boys and girls
         int boysNumbTotal = 0;
         int girlsTotal = 0;
         int girlsNumbTotal = 0;
@@ -31,10 +31,10 @@ public class Chap6Ex001 {
         
         while (inp.hasNext()){
             if (count % 2 == 0){
-                boysTotal++;
+                boysTotal++; //increment the boys count
                 boysNumbTotal += readNameNumber(inp);
             } else {
-                girlsTotal++;
+                girlsTotal++; //increment the girls count
                 girlsNumbTotal += readNameNumber(inp);
             }
             count += 1;
